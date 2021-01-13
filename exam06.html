@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body {
+            background-color: #B3C5DC;   
+        }
+
+        main {
+            /* border: 1px solid black; */
+            width: 900px;
+            height: 1200px;
+            margin: 0 auto;
+            margin-top: -10px;
+        }
+
+        #left {
+            /* border: 1px solid blue; */
+            width: 248px;
+            height: 1300px;
+            float: left;
+            background-color: #344F71;
+            color: white;
+        }
+
+        #right {
+            /* border: 1px solid greenyellow; */
+            width: 580px;
+            height: 1200px;
+            float: left;
+            background-color: white;
+            padding: 50px 50px 50px 20px;
+        }
+
+        #right::after {
+            content: "";
+            display: block;
+            clear: left;
+        }
+
+        #main #image {
+            width: 248px;
+            height: 230px;
+            
+        }
+
+        #main #image img{
+            width: 130px;
+            height: 130px;
+            position: relative;
+            left: 44px;
+            top: 44px;
+            border: 5px dashed #CCCCCC;
+            background-color: #718493;
+            padding: 10px;
+            
+        }
+
+        #main #name {
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            font-family: '맑은 고딕'; 
+            margin-bottom: 20px; 
+        }
+
+        #main #intro {
+            text-align: left;
+            font-size: 15px;
+            padding-left: 20px;
+            margin-bottom: 80px;
+        }
+
+        #main .left-content {
+            border-bottom: 1px solid white;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-bottom: 20px;
+            font-size: 13px;
+            font-style: italic;
+        }
+
+        #main #title {
+            font-variant: small-caps;
+            font-size: 30px;
+            font-weight: bold;
+            color: #888888;
+        }
+
+        #main #title span {
+            font-size: 25px;
+            color: #CCCCCC;
+            margin-left: 10px;
+        }
+
+        #main .right-content h2 {
+            border-left: 10px solid #5D728D;
+            padding-left: 15px;
+            color: #888888;
+        }
+
+        #main .right-content {
+            color: #AAAAAA;
+            font-size: 14px;
+            text-align: justify;
+            letter-spacing: -1px;
+        }
+
+        #main #reserved {
+            margin-top: 30px;
+            padding-top: 10px;
+            padding-left: 5px;
+            font-size: 14px;
+            border-top: 1px dashed #CCCCCC;
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+    <main id="main">
+        <div id="left">
+            <div id="image"><img src="/images/man_03.png" alt=""></div>
+            <div id="name">Park Young Su</div>
+            <div id="intro">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, a.</div>
+            <div class="left-content">🍰1993-08-17</div>
+            <div class="left-content">📩 enenfnq@gamil.com</div>
+            <div class="left-content"> ☎ 010-1234-5678</div>
+            <div class="left-content">💒 Teheran-ro, Gangnam-gu, Seoul, Republic of Korea</div>
+        </div>
+        <div id="right">
+            <div id="title">Resume<span>Lorem ipsum dolor sit.</span></div>
+            <div class="right-content">
+                <h2>Lorem, ipsum.</h2>
+                <ul>
+                    <li>2019.02.22 - 2019.03.04</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur distinctio commodi eveniet asperiores illum in ut praesentium, nam architecto quas similique. Natus cupiditate quisquam, placeat modi corporis voluptates porro reiciendis!</li>
+                    <li>Officia, et, pariatur minima officiis iusto, accusamus eligendi tempore adipisci alias quos esse porro ab non architecto expedita omnis libero magnam sed similique illo perferendis quae sapiente amet. Optio, mollitia.</li>
+                    <li>Facilis, tempora laboriosam aliquid debitis, laudantium, natus rerum ipsa voluptatibus molestiae distinctio provident eveniet impedit harum itaque. Veniam, explicabo dicta aliquam, reprehenderit saepe quas dignissimos placeat enim perspiciatis repellendus harum?/li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, reiciendis, voluptate, provident hic beatae dolores quo quam est nostrum quidem obcaecati illo soluta exercitationem molestiae ipsa non esse recusandae quia!</li>
+                </ul>
+            </div>
+            <div class="right-content">
+                <h2>Eum, imp dolor sit amet.</h2>
+                <ul>
+                    <li>2019.03.20 - 2019.04.11</li>
+                    <li>Rerum adipisci perspiciatis ipsa sequi rem minus eligendi hic provident error modi! Repudiandae commodi, nulla expedita pariatur neque ab dolor earum nobis adipisci aperiam nisi inventore debitis officiis sunt eaque?</li>
+                    <li>Quibusdam fugit temporibus aliquid odit in dolore maxime nisi quae id, accusantium, ea maiores distinctio magnam? Vel, harum ducimus sapiente voluptatem natus corrupti laborum animi labore veritatis. Veniam, libero. Nemo!</li>
+                    <li>Sed aliquam harum, ducimus numquam illo, est culpa atque quisquam eveniet aperiam tempore voluptate, consequatur dolor fuga quod nesciunt sapiente quas minima cum? At aut ducimus minus ad, adipisci saepe!</li>
+                </ul>
+            </div>
+            <div class="right-content">
+                <h2>Sint, excepturi? aliquam</h2>
+                <ul>
+                    <li>Iste voluptatem aperiam, sint nostrum odit facilis? Est esse fugit aspernatur ex molestiae, nam voluptatem accusamus numquam officia quas beatae autem illum nesciunt vitae totam quae sunt, optio explicabo eos!</li>
+                    <li>Illum nostrum voluptate, nam, obcaecati error, et nemo animi consectetur commodi tempora dolorem. Nostrum nobis vero at, modi quas harum voluptates voluptatem possimus molestias, et velit mollitia quasi earum molestiae!</li>
+                </ul>
+            </div>
+            <div class="right-content" id="reserved">©Copyright 2019 hong.com All rights reserved.</div>
+        </div>
+    </main>
+    
+</body>
+</html>
